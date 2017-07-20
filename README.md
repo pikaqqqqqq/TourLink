@@ -1,6 +1,6 @@
 # TourLink
 
-* 1.01 实现：底部导航栏 + 顶部导航栏
+* 1.01 实现：底部导航栏 + 顶部导航栏 功能
 ```java
     1、底部导航栏（RadioGroup + RadioButton + Fragment）
         首先，就是去掉它的默认样式，因此，我们来自定义一个style
