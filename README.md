@@ -14,7 +14,7 @@
                     style="@style/RadioGroupButtonStyle"
                     />
         最后，在Activity中初始化，绑定相应的fragment
-        来自：Android 底部导航栏(底部Tab)最佳实践（http://www.jianshu.com/p/0b9d5777abba ）
+        来自：Android 底部导航栏(底部Tab)最佳实践 <http://www.jianshu.com/p/0b9d5777abba>
 
     2、顶部导航栏
         第一步，在Theme中隐藏现有的ActionBar，有以下两种方式:
@@ -30,6 +30,6 @@
                 android:theme="@style/Theme.ToolBar.ZhiHu">
         </android.support.v7.widget.Toolbar>
         来自：Android开发：最详细的 Toolbar 开发实践总结（http://www.jianshu.com/p/79604c3ddcae）
-              Android Toolbar，你想知道的都在这里了（http://yifeng.studio/2016/10/12/android-toolbar/）
+              Android Toolbar，你想知道的都在这里了 <http://yifeng.studio/2016/10/12/android-toolbar/>
 
 ```
