@@ -8,4 +8,23 @@
     <string name="menu_settings">设置</string>
     <string name="menu_about_us">关于</string>
     <string name="home_page">消息</string>
+
+    <string name="title">Single Title</string>
+    <string name="title_long">A very interesting and long title</string>
+    <string name="subtitle">Single Subtitle</string>
+    <string name="subtitle_long">Lorem ipsum dolor sit amet, vide utamur usu ne. Debet nusquam est ut, omnium fabulas usu id, dolor dolore voluptua vis te.</string>
+
+    <string name="attrs">Attributes</string>
+    <string name="attr_title">Title</string>
+    <string name="attr_subtitle">Subtitle</string>
+    <string name="attr_multiline">Multiline</string>
+    <string name="attr_forceKeyline">Force Keyline</string>
+    <string name="attr_displayMode">Display Mode</string>
+    <string name="attr_iconColor">Icon Color</string>
+    <string name="attr_circularIconColor">Circular Icon Color</string>
+    <string name="attr_actionMenu">Action Menu</string>
+    <string name="attr_actionMenuRoom">Action Menu Room</string>
+    <string name="attr_actionMenuItemColor">Action Menu Item Color</string>
+    <string name="attr_actionMenuOverflowColor">Action Menu Overflow Color</string>
+
 </resources>

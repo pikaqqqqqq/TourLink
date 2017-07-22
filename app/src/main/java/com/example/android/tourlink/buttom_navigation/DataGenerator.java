@@ -22,7 +22,7 @@ public class DataGenerator {
 
     public static final int []mTabRes = new int[]{R.drawable.tab_home_selector,R.drawable.tab_discovery_selector,R.drawable.tab_attention_selector,R.drawable.tab_profile_selector};
     public static final int []mTabResPressed = new int[]{R.drawable.ic_tab_strip_icon_feed_selected,R.drawable.ic_tab_strip_icon_category_selected,R.drawable.ic_tab_strip_icon_pgc_selected,R.drawable.ic_tab_strip_icon_profile_selected};
-    public static final String []mTabTitle = new String[]{"消息","群组","功能","我的"};
+    public static final String []mTabTitle = new String[]{"msg","group","fun","my"};
 
     public static Fragment[] getFragments(String from){
         Fragment fragments[] = new Fragment[4];
@@ -34,7 +34,6 @@ public class DataGenerator {
     }
 
     /**
-     * 鑾峰彇Tab 鏄剧ず鐨勫唴瀹?
      * @param context
      * @param position
      * @return
