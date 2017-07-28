@@ -4,4 +4,8 @@
     <item name="action_settings" type="id" />
     <item name="action_notification" type="id" />
     <item name="action_search" type="id" />
+    <item name="action_add_group" type="id" />
+    <item name="action_add_friend" type="id" />
+    <item name="action_rich_scan" type="id" />
+    <item name="action_creat_group" type="id" />
 </resources>

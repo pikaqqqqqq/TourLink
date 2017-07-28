@@ -24,10 +24,11 @@
 
     <style name="Theme.ToolBar.ZhiHu" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="actionOverflowButtonStyle">@style/ActionButton.Overflow.ZhiHu</item>
+        <item name="android:textSize">16sp</item>
     </style>
 
     <style name="ActionButton.Overflow.ZhiHu" parent="android:style/Widget.Holo.Light.ActionButton.Overflow">
-        <item name="android:src">@drawable/ic_menu_more_overflow</item>
+        <item name="android:src">@drawable/ic_plus</item>
     </style>
 
 </resources>

@@ -37,10 +37,10 @@ public class HomeFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_home,null);
-        TextView textView = (TextView) view.findViewById(R.id.title_from);
-        TextView content = (TextView) view.findViewById(R.id.fragment_content);
-        textView.setText(mFrom);
-        content.setText("Homefragment");
+//        TextView textView = (TextView) view.findViewById(R.id.title_from);
+//        TextView content = (TextView) view.findViewById(R.id.fragment_content);
+//        textView.setText(mFrom);
+//        content.setText("Homefragment");
         return view;
     }
 }

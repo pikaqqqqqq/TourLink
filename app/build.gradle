@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.android.tourlink"
-        minSdkVersion 10
+        minSdkVersion 17
         targetSdkVersion 24
         versionCode 1
         versionName "1.0"
@@ -25,5 +25,5 @@ dependencies {
     compile 'com.android.support:appcompat-v7:24.2.0'
     compile 'com.android.support:support-v4:24.2.0'
     compile 'com.android.support:recyclerview-v7:24.2.0'
-
+    compile 'com.lucasurbas:listitemview:1.0.5'
 }

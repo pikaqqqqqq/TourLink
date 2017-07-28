@@ -7,23 +7,36 @@
         android:title="@string/menu_search"
         app:showAsAction="ifRoom" />
 
-    <item
-        android:id="@id/action_notification"
-        android:icon="@drawable/ic_notifications"
-        android:title="@string/menu_notifications"
-        app:showAsAction="ifRoom" />
+    <!--<item-->
+        <!--android:id="@id/action_notification"-->
+        <!--android:icon="@drawable/ic_notifications"-->
+        <!--android:title="@string/menu_notifications"-->
+        <!--app:showAsAction="ifRoom" />-->
 
     <item
-        android:id="@id/action_settings"
+        android:id="@id/action_creat_group"
         android:orderInCategory="100"
-        android:title="@string/menu_settings"
+        android:title="@string/menu_creat_group"
         app:showAsAction="never" />
 
     <item
-        android:id="@id/action_about"
-        android:orderInCategory="101"
-        android:title="@string/menu_about_us"
+        android:id="@id/action_add_group"
+        android:orderInCategory="100"
+        android:title="@string/menu_add_group"
         app:showAsAction="never" />
+
+    <item
+        android:id="@id/action_add_friend"
+        android:orderInCategory="100"
+        android:title="@string/menu_add_friend"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@id/action_rich_scan"
+        android:orderInCategory="101"
+        android:title="@string/menu_rich_scan"
+        app:showAsAction="never" />
+
 
 
 </menu>

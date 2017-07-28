@@ -9,6 +9,14 @@
     <string name="menu_about_us">关于</string>
     <string name="home_page">消息</string>
 
+    <string name="action_heart">Heart</string>
+    <string name="action_info">Info</string>
+    <string name="action_remove">Remove</string>
+    <string name="action_check">Check</string>
+    <string name="action_uncheck">Uncheck</string>
+    <string name="action_color">Color</string>
+
+
     <string name="title">Single Title</string>
     <string name="title_long">A very interesting and long title</string>
     <string name="subtitle">Single Subtitle</string>
@@ -26,5 +34,22 @@
     <string name="attr_actionMenuRoom">Action Menu Room</string>
     <string name="attr_actionMenuItemColor">Action Menu Item Color</string>
     <string name="attr_actionMenuOverflowColor">Action Menu Overflow Color</string>
+
+    <string name="attr_modeStandard">Standard</string>
+    <string name="attr_modeIcon">Icon</string>
+    <string name="attr_modeCircularIcon">Circular Icon</string>
+    <string name="attr_modeAvatar">Avatar</string>
+
+    <string name="attr_menuNone">None</string>
+    <string name="attr_menuSingle">Single Action</string>
+    <string name="attr_menuMultiple">Multiple Actions</string>
+
+    <string name="attr_room1">1</string>
+    <string name="attr_room2">2</string>
+    <string name="attr_room3">3</string>
+    <string name="menu_add_group">加入群组</string>
+    <string name="menu_add_friend">添加好友</string>
+    <string name="menu_rich_scan">扫一扫</string>
+    <string name="menu_creat_group">新建群组</string>
 
 </resources>

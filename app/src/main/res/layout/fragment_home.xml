@@ -1,27 +1,165 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context="com.example.android.tourlink.buttom_navigation.fragment.HomeFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:id="@+id/title_from"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:textColor="#FF0000"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="5dp"
-        />
-    <TextView
-        android:id="@+id/fragment_content"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="HomeFragment"
-        android:textColor="@android:color/black"
-        android:textSize="20sp"
-        android:layout_centerInParent="true"
-        />
 
-</FrameLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="true"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:layout_marginBottom="16dp">
+
+            <com.lucasurbas.listitemview.ListItemView
+                android:id="@+id/list_item_friend"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:liv_title="途聆好友"
+                app:liv_multiline="true"
+                app:liv_displayMode="circularIcon"
+                app:liv_icon="@drawable/ic_account"
+                app:liv_iconColor="@color/white"
+                app:liv_circularIconColor="@color/colorContact">
+            </com.lucasurbas.listitemview.ListItemView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="72dp"
+                android:background="#bbbbbb" />
+
+            <com.lucasurbas.listitemview.ListItemView
+                android:id="@+id/list_item_friend_multiple"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:liv_title="我的群组"
+                app:liv_multiline="true"
+                app:liv_displayMode="circularIcon"
+                app:liv_icon="@drawable/ic_account_multiple"
+                app:liv_iconColor="@color/white"
+                app:liv_circularIconColor="@color/colorGroup">
+            </com.lucasurbas.listitemview.ListItemView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="72dp"
+                android:background="#bbbbbb" />
+
+            <com.lucasurbas.listitemview.ListItemView
+                android:id="@+id/list_item_phone_log"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:liv_multiline="true"
+                app:liv_title="手机联系人"
+                app:liv_displayMode="circularIcon"
+                app:liv_icon="@drawable/ic_phone_log"
+                app:liv_iconColor="@color/white"
+                app:liv_circularIconColor="@color/colorPhone">
+            </com.lucasurbas.listitemview.ListItemView>
+
+            <include layout="@layout/view_divide"/>
+
+            <com.lucasurbas.listitemview.ListItemView
+                android:id="@+id/list_item_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:liv_subtitle="成都——稻城3日游"
+                app:liv_title="从你的全世界路过"
+                app:liv_displayMode="circularIcon"
+                app:liv_icon="@drawable/ic_sitemap"
+                app:liv_circularIconColor="@color/colorContact">
+            </com.lucasurbas.listitemview.ListItemView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="72dp"
+                android:background="#bbbbbb" />
+
+            <com.lucasurbas.listitemview.ListItemView
+                android:id="@+id/attr_displayMode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                app:liv_title="组织架构"
+                app:liv_displayMode="icon"
+                app:liv_multiline="true"
+                app:liv_iconColor="@color/colorDivideGroup"
+                app:liv_icon="@drawable/ic_menu_right"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="72dp"
+                android:background="#bbbbbb" />
+
+            <com.lucasurbas.listitemview.ListItemView
+                android:id="@+id/attr_actionMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                app:liv_title="旅游团队"
+                app:liv_displayMode="icon"
+                app:liv_multiline="true"
+                app:liv_iconColor="@color/colorDivideGroup"
+                app:liv_icon="@drawable/ic_menu_right"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="72dp"
+                android:background="#bbbbbb" />
+
+            <com.lucasurbas.listitemview.ListItemView
+                android:id="@+id/attr_actionMenuRoom1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                app:liv_title="车辆调度"
+                app:liv_displayMode="icon"
+                app:liv_iconColor="@color/colorDivideGroup"
+                app:liv_multiline="true"
+                app:liv_icon="@drawable/ic_menu_right"/>
+
+            <include layout="@layout/view_divide"/>
+
+            <com.lucasurbas.listitemview.ListItemView
+                android:id="@+id/list_item_account_multiple_plus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:liv_title="创建群组"
+                app:liv_multiline="true"
+                app:liv_displayMode="circularIcon"
+                app:liv_icon="@drawable/ic_account_multiple_plus"
+                app:liv_circularIconColor="@color/colorContact">
+            </com.lucasurbas.listitemview.ListItemView>
+
+            <include layout="@layout/view_divide"/>
+
+            <com.lucasurbas.listitemview.ListItemView
+                android:id="@+id/list_item_account_ofen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:liv_title="常用联系人"
+                app:liv_multiline="true"
+                app:liv_displayMode="circularIcon"
+                app:liv_icon="@drawable/ic_account_settings"
+                app:liv_circularIconColor="@color/colorContact">
+            </com.lucasurbas.listitemview.ListItemView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

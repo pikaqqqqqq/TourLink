@@ -3,13 +3,12 @@
     android:layout_width="match_parent" android:layout_height="wrap_content">
     <ImageView
         android:id="@+id/icon_view"
-        android:layout_width="48dp"
-        android:layout_height="48dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
         android:layout_gravity="center_vertical|start"
         android:layout_marginBottom="16dp"
         android:layout_marginTop="16dp"
-        android:layout_marginLeft="@dimen/activity_vertical_margin"
-        android:src="@drawable/ic_table_row_plus_before"/>
+        android:layout_marginLeft="@dimen/activity_vertical_margin" />
 
     <TextView
         android:id="@+id/tv_title_tem"

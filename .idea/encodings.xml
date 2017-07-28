@@ -1,17 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/android/tourlink/buttom_navigation/DataGenerator.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/android/tourlink/buttom_navigation/fragment/AttentionFragment.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/android/tourlink/buttom_navigation/fragment/DiscoveryFragment.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/android/tourlink/buttom_navigation/fragment/HomeFragment.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/android/tourlink/buttom_navigation/fragment/ProfileFragment.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/color/color_selector.xml" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/tab_attention_selector.xml" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/tab_discovery_selector.xml" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/tab_home_selector.xml" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/tab_profile_selector.xml" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/home_tab_content.xml" charset="GBK" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
