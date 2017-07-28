@@ -9,6 +9,7 @@ import android.widget.TextView;
 
 import com.example.android.tourlink.R;
 import com.example.android.tourlink.buttom_navigation.fragment.AttentionFragment;
+import com.example.android.tourlink.buttom_navigation.fragment.CircleFragment;
 import com.example.android.tourlink.buttom_navigation.fragment.DiscoveryFragment;
 import com.example.android.tourlink.buttom_navigation.fragment.HomeFragment;
 import com.example.android.tourlink.buttom_navigation.fragment.ProfileFragment;
@@ -22,14 +23,15 @@ public class DataGenerator {
 
     public static final int []mTabRes = new int[]{R.drawable.tab_home_selector,R.drawable.tab_discovery_selector,R.drawable.tab_attention_selector,R.drawable.tab_profile_selector};
     public static final int []mTabResPressed = new int[]{R.drawable.ic_tab_strip_icon_feed_selected,R.drawable.ic_tab_strip_icon_category_selected,R.drawable.ic_tab_strip_icon_pgc_selected,R.drawable.ic_tab_strip_icon_profile_selected};
-    public static final String []mTabTitle = new String[]{"msg","group","fun","my"};
+    public static final String []mTabTitle = new String[]{"msg","group","fun","Circle","my"};
 
     public static Fragment[] getFragments(String from){
-        Fragment fragments[] = new Fragment[4];
+        Fragment fragments[] = new Fragment[5];
         fragments[0] = HomeFragment.newInstance(from);
         fragments[1] = DiscoveryFragment.newInstance(from);
         fragments[2] = AttentionFragment.newInstance(from);
         fragments[3] = ProfileFragment.newInstance(from);
+        fragments[4] = CircleFragment.newInstance(from);
         return fragments;
     }
 

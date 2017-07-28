@@ -29,7 +29,7 @@
     <RadioGroup
         android:id="@+id/radio_group_button"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="60dp"
         android:orientation="horizontal"
         android:gravity="center"
         android:background="@android:color/white"
@@ -56,6 +56,14 @@
             android:layout_height="wrap_content"
             android:text="功能"
             android:drawableTop="@drawable/tab_attention_selector"
+            style="@style/RadioGroupButtonStyle"
+            />
+        <RadioButton
+            android:id="@+id/radio_button_circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="圈子"
+            android:drawableTop="@drawable/tab_circle_select"
             style="@style/RadioGroupButtonStyle"
             />
         <RadioButton
