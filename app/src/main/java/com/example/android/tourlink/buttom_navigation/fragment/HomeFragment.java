@@ -40,7 +40,7 @@ public class HomeFragment extends Fragment {
 //        TextView textView = (TextView) view.findViewById(R.id.title_from);
 //        TextView content = (TextView) view.findViewById(R.id.fragment_content);
 //        textView.setText(mFrom);
-//        content.setText("Homefragment");
+//        content.setText("消息");
         return view;
     }
 }

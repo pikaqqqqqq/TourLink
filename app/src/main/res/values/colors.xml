@@ -9,10 +9,10 @@
     <color name="colorContact">#4ca8e7</color>
     <color name="colorPhone">#f27161</color>
     <color name="colorGroup">#15c295</color>
-    <color name="colorDivideGroup">#959797</color>
+    <color name="colorDivideGroup">#b4b4b4</color>
     <color name="colorTab">#959797</color>
-
-
+    <color name="colorMan">#f27161</color>
+    <color name="colorGirl">#15c295</color>
 
     <color name="lightGrey">#EEEEEE</color>
     <color name="placeholder">#EDEDED</color>

@@ -1,20 +1,28 @@
 package com.example.android.tourlink.buttom_navigation.fragment;
 
+import android.app.LauncherActivity;
 import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TabHost;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.android.tourlink.R;
+import com.lucasurbas.listitemview.ListItemView;
 
 
 public class DiscoveryFragment extends Fragment {
     private String mFrom;
+
+    private ListItemView attributeGroupSetting;
+
     public static DiscoveryFragment newInstance(String from){
         DiscoveryFragment fragment = new DiscoveryFragment();
         Bundle bundle = new Bundle();
@@ -37,10 +45,24 @@ public class DiscoveryFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_discovery,null);
-        TextView textView = (TextView) view.findViewById(R.id.title_from);
-        TextView content = (TextView) view.findViewById(R.id.fragment_content);
-        textView.setText(mFrom);
-        content.setText("DiscoveryFragment");
+//        TextView textView = (TextView) view.findViewById(R.id.title_from);
+//        TextView content = (TextView) view.findViewById(R.id.fragment_content);
+//        textView.setText(mFrom);
+//        content.setText("群组");
+        attributeGroupSetting = (ListItemView)view.findViewById(R.id.list_item_group_view);
+        attributeGroupSetting.setOnClickListener(new ListItemView.OnClickListener(){
+
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getActivity(),"组织架构", Toast.LENGTH_SHORT).show();
+            }
+        });
+        attributeGroupSetting.setOnMenuItemClickListener(new ListItemView.OnMenuItemClickListener(){
+            @Override
+            public void onActionMenuItemSelected(MenuItem item) {
+                Toast.makeText(getActivity(),"设置", Toast.LENGTH_SHORT).show();
+            }
+        });
         return view;
     }
 }

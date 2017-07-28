@@ -1,4 +1,4 @@
-package com.example.android.tourlink.buttom_navigation;
+package com.example.android.tourlink.activity;
 
 import android.support.annotation.IdRes;
 import android.support.v4.app.Fragment;
@@ -9,6 +9,7 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 
 import com.example.android.tourlink.R;
+import com.example.android.tourlink.buttom_navigation.DataGenerator;
 
 public class RadioGroupTabActivity extends AppCompatActivity {
     private RadioGroup mRadioGroup;
@@ -40,23 +41,23 @@ public class RadioGroupTabActivity extends AppCompatActivity {
                 switch (checkedId){
                     case R.id.radio_button_home:
                         mFragment = mFragments[0];
-                        toolbar.setTitle(R.string.home_page);
+                        toolbar.setTitle(R.string.toolbar_title_msg);
                         break;
                     case R.id.radio_button_discovery:
                         mFragment = mFragments[1];
-                        toolbar.setTitle(R.string.home_page);
+                        toolbar.setTitle(R.string.toolbar_title_group);
                         break;
                     case R.id.radio_button_attention:
                         mFragment = mFragments[2];
-                        toolbar.setTitle(R.string.home_page);
+                        toolbar.setTitle(R.string.toolbar_title_funtion);
                         break;
                     case R.id.radio_button_profile:
                         mFragment = mFragments[3];
-                        toolbar.setTitle(R.string.home_page);
+                        toolbar.setTitle(R.string.toolbar_title_my);
                         break;
                     case R.id.radio_button_circle:
                         mFragment = mFragments[4];
-                        toolbar.setTitle(R.string.home_page);
+                        toolbar.setTitle(R.string.toolbar_title_circle);
                         break;
                 }
                 if(mFragments!=null){

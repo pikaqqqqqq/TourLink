@@ -22,7 +22,12 @@ import com.example.android.tourlink.buttom_navigation.fragment.ProfileFragment;
 public class DataGenerator {
 
     public static final int []mTabRes = new int[]{R.drawable.tab_home_selector,R.drawable.tab_discovery_selector,R.drawable.tab_attention_selector,R.drawable.tab_profile_selector};
-    public static final int []mTabResPressed = new int[]{R.drawable.ic_tab_strip_icon_feed_selected,R.drawable.ic_tab_strip_icon_category_selected,R.drawable.ic_tab_strip_icon_pgc_selected,R.drawable.ic_tab_strip_icon_profile_selected};
+    public static final int []mTabResPressed = new int[]{
+            R.drawable.ic_tab_message_outline_select,
+            R.drawable.ic_tab_account_multiple_select,
+            R.drawable.ic_tab_microsoft_select,
+            R.drawable.ic_tab_camera_iris_select,
+            R.drawable.ic_tab_account_select};
     public static final String []mTabTitle = new String[]{"msg","group","fun","Circle","my"};
 
     public static Fragment[] getFragments(String from){

@@ -39,7 +39,7 @@ public class AttentionFragment extends Fragment {
         TextView textView = (TextView) view.findViewById(R.id.title_from);
         TextView content = (TextView) view.findViewById(R.id.fragment_content);
         textView.setText(mFrom);
-        content.setText("AttentionFragment");
+        content.setText("功能");
         return view;
     }
 }

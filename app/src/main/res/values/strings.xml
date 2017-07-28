@@ -51,5 +51,10 @@
     <string name="menu_add_friend">添加好友</string>
     <string name="menu_rich_scan">扫一扫</string>
     <string name="menu_creat_group">新建群组</string>
+    <string name="toolbar_title_circle">圈子</string>
+    <string name="toolbar_title_my">个人信息</string>
+    <string name="toolbar_title_funtion">功能</string>
+    <string name="toolbar_title_group">群组</string>
+    <string name="toolbar_title_msg">消息</string>
 
 </resources>

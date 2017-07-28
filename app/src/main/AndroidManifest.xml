@@ -9,7 +9,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity"></activity>
-        <activity android:name=".buttom_navigation.RadioGroupTabActivity">
+        <activity android:name=".activity.RadioGroupTabActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
