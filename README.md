@@ -34,7 +34,23 @@
 
 ```
 
-* 1.03_1 添加View注入butterknife
+* 1.03_1 添加View注入butterknife、完成跳转反射弧且添加跳转动画
 ```java
+    1、添加View注入butterknife
     compile 'com.jakewharton:butterknife:7.0.1'
+
+    2、完成代码目录重构，接下来尽量做一些方法的重构
+
+    3、完成跳转反射弧且添加跳转动画
+    //在fragment里做跳转
+    Intent intent = new Intent(getActivity(), ChatActivity.class);
+    startActivity(intent);
+    getActivity().overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+
+    //返回
+    @Override
+    public void finish() {
+        super.finish();
+        overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+    }
 ```
