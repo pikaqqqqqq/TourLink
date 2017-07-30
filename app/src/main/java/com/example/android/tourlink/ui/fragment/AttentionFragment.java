@@ -1,5 +1,4 @@
-package com.example.android.tourlink.buttom_navigation.fragment;
-
+package com.example.android.tourlink.ui.fragment;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -11,15 +10,12 @@ import android.widget.TextView;
 
 import com.example.android.tourlink.R;
 
-/**
- * A simple {@link Fragment} subclass.
- */
-public class CircleFragment extends Fragment {
+public class AttentionFragment extends Fragment {
 
 
     private String mFrom;
-    public static CircleFragment newInstance(String from){
-        CircleFragment fragment = new CircleFragment();
+    public static AttentionFragment newInstance(String from){
+        AttentionFragment fragment = new AttentionFragment();
         Bundle bundle = new Bundle();
         bundle.putString("from",from);
         fragment.setArguments(bundle);
@@ -34,17 +30,14 @@ public class CircleFragment extends Fragment {
         }
     }
 
+    @Nullable
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_circle,null);
+    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.fragment_attention,null);
         TextView textView = (TextView) view.findViewById(R.id.title_from);
         TextView content = (TextView) view.findViewById(R.id.fragment_content);
         textView.setText(mFrom);
-        content.setText("圈子");
+        content.setText("功能");
         return view;
     }
-
-
-
 }

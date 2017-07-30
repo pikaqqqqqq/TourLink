@@ -33,3 +33,8 @@
               Android Toolbar，你想知道的都在这里了（http://yifeng.studio/2016/10/12/android-toolbar/）
 
 ```
+
+* 1.03_1 添加View注入butterknife
+```java
+    compile 'com.jakewharton:butterknife:7.0.1'
+```

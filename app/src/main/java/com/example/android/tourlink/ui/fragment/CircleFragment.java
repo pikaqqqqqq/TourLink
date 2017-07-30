@@ -1,7 +1,6 @@
-package com.example.android.tourlink.buttom_navigation.fragment;
+package com.example.android.tourlink.ui.fragment;
 
-import android.content.Context;
-import android.net.Uri;
+
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -12,12 +11,15 @@ import android.widget.TextView;
 
 import com.example.android.tourlink.R;
 
-public class AttentionFragment extends Fragment {
+/**
+ * A simple {@link Fragment} subclass.
+ */
+public class CircleFragment extends Fragment {
 
 
     private String mFrom;
-    public static AttentionFragment newInstance(String from){
-        AttentionFragment fragment = new AttentionFragment();
+    public static CircleFragment newInstance(String from){
+        CircleFragment fragment = new CircleFragment();
         Bundle bundle = new Bundle();
         bundle.putString("from",from);
         fragment.setArguments(bundle);
@@ -32,14 +34,17 @@ public class AttentionFragment extends Fragment {
         }
     }
 
-    @Nullable
     @Override
-    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_attention,null);
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.fragment_circle,null);
         TextView textView = (TextView) view.findViewById(R.id.title_from);
         TextView content = (TextView) view.findViewById(R.id.fragment_content);
         textView.setText(mFrom);
-        content.setText("功能");
+        content.setText("圈子");
         return view;
     }
+
+
+
 }

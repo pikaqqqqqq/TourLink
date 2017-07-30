@@ -9,7 +9,7 @@ import android.support.v7.widget.RecyclerView;
 import android.widget.Toast;
 
 import com.example.android.tourlink.adapter.MyRecyclerAdapter;
-import com.example.android.tourlink.decoration.DividerItemDecoration;
+import com.example.android.tourlink.widget.DividerItemDecoration;
 
 import java.util.ArrayList;
 import java.util.List;

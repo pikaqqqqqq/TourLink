@@ -1,4 +1,4 @@
-package com.example.android.tourlink.buttom_navigation;
+package com.example.android.tourlink.widget.buttom_navigation;
 
 import android.content.Context;
 import android.support.v4.app.Fragment;
@@ -8,11 +8,11 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.android.tourlink.R;
-import com.example.android.tourlink.buttom_navigation.fragment.AttentionFragment;
-import com.example.android.tourlink.buttom_navigation.fragment.CircleFragment;
-import com.example.android.tourlink.buttom_navigation.fragment.DiscoveryFragment;
-import com.example.android.tourlink.buttom_navigation.fragment.HomeFragment;
-import com.example.android.tourlink.buttom_navigation.fragment.ProfileFragment;
+import com.example.android.tourlink.ui.fragment.AttentionFragment;
+import com.example.android.tourlink.ui.fragment.CircleFragment;
+import com.example.android.tourlink.ui.fragment.DiscoveryFragment;
+import com.example.android.tourlink.ui.fragment.HomeFragment;
+import com.example.android.tourlink.ui.fragment.ProfileFragment;
 
 
 /**

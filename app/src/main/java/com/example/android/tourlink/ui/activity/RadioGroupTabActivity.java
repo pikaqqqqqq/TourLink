@@ -1,17 +1,21 @@
-package com.example.android.tourlink.activity;
+package com.example.android.tourlink.ui.activity;
 
+
+import android.annotation.TargetApi;
+import android.os.Build;
 import android.support.annotation.IdRes;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.transition.Slide;
 import android.view.MenuItem;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
 
 import com.example.android.tourlink.R;
-import com.example.android.tourlink.buttom_navigation.DataGenerator;
+import com.example.android.tourlink.widget.buttom_navigation.DataGenerator;
 
 public class RadioGroupTabActivity extends AppCompatActivity {
     private RadioGroup mRadioGroup;
@@ -23,6 +27,7 @@ public class RadioGroupTabActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_radio_group_tab);
+
         mFragments = DataGenerator.getFragments("RadioGroup Tab");
 
         toolbar = (Toolbar) findViewById(R.id.massage_toolbar);
@@ -38,16 +43,16 @@ public class RadioGroupTabActivity extends AppCompatActivity {
                     Toast.makeText(getApplication(), R.string.menu_search, Toast.LENGTH_SHORT).show();
 
                 } else if (menuItemId == R.id.action_add_friend) {
-                    Toast.makeText(getApplication() , R.string.menu_add_friend , Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplication(), R.string.menu_add_friend, Toast.LENGTH_SHORT).show();
 
                 } else if (menuItemId == R.id.action_add_group) {
-                    Toast.makeText(getApplication() , R.string.menu_add_group , Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplication(), R.string.menu_add_group, Toast.LENGTH_SHORT).show();
 
                 } else if (menuItemId == R.id.action_creat_group) {
-                    Toast.makeText(getApplication() , R.string.menu_creat_group , Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplication(), R.string.menu_creat_group, Toast.LENGTH_SHORT).show();
 
-                }else if (menuItemId == R.id.action_rich_scan) {
-                    Toast.makeText(getApplication() , R.string.menu_rich_scan , Toast.LENGTH_SHORT).show();
+                } else if (menuItemId == R.id.action_rich_scan) {
+                    Toast.makeText(getApplication(), R.string.menu_rich_scan, Toast.LENGTH_SHORT).show();
 
                 }
                 return true;
@@ -55,6 +60,7 @@ public class RadioGroupTabActivity extends AppCompatActivity {
         });
 
         initView();
+
     }
 
     private void initView() {
@@ -85,6 +91,7 @@ public class RadioGroupTabActivity extends AppCompatActivity {
                         mFragment = mFragments[4];
                         toolbar.setTitle(R.string.toolbar_title_circle);
                         break;
+
                 }
                 if(mFragments!=null){
                     getSupportFragmentManager().beginTransaction().replace(R.id.home_container,mFragment).commit();

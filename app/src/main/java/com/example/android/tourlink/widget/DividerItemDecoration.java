@@ -1,4 +1,4 @@
-package com.example.android.tourlink.decoration;
+package com.example.android.tourlink.widget;
 
 /**
  * Created by think on 2017/7/22.

@@ -56,5 +56,6 @@
     <string name="toolbar_title_funtion">功能</string>
     <string name="toolbar_title_group">群组</string>
     <string name="toolbar_title_msg">消息</string>
+    <string name="title_activity_chat">ChatActivity</string>
 
 </resources>

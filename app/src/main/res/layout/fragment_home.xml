@@ -5,7 +5,7 @@
     android:orientation="vertical"
     android:background="@color/colorBackground"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context="com.example.android.tourlink.buttom_navigation.fragment.HomeFragment">
+    tools:context=".ui.fragment.HomeFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <ScrollView
@@ -44,7 +44,7 @@
                 app:liv_title="小阿九"
                 app:liv_multiline="true"
                 app:liv_displayMode="circularIcon"
-                app:liv_subtitle="导游：语音13'"
+                app:liv_subtitle="[语音]"
                 app:liv_icon="@drawable/ic_account_circle"
                 app:liv_circularIconColor="@color/colorGirl">
             </com.lucasurbas.listitemview.ListItemView>

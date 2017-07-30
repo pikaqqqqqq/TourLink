@@ -1,7 +1,5 @@
-package com.example.android.tourlink.buttom_navigation.fragment;
+package com.example.android.tourlink.ui.fragment;
 
-import android.content.Context;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;

@@ -1,20 +1,20 @@
-package com.example.android.tourlink.buttom_navigation.fragment;
+package com.example.android.tourlink.ui.fragment;
 
-import android.app.LauncherActivity;
-import android.content.Context;
-import android.net.Uri;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v4.app.ActivityOptionsCompat;
 import android.support.v4.app.Fragment;
+import android.support.v4.util.Pair;
+import android.transition.Slide;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TabHost;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.android.tourlink.R;
+import com.example.android.tourlink.ui.activity.ChatActivity;
 import com.lucasurbas.listitemview.ListItemView;
 
 
@@ -39,8 +39,6 @@ public class DiscoveryFragment extends Fragment {
             mFrom = getArguments().getString("from");
         }
     }
-
-
 
     @Nullable
     @Override
@@ -71,6 +69,9 @@ public class DiscoveryFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 Toast.makeText(getActivity(),"小阿九", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(getActivity(), ChatActivity.class);
+                startActivity(intent);
+                getActivity().overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
             }
         });
         return view;
