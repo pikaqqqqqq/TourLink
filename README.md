@@ -34,6 +34,18 @@
 
 ```
 
+* 1.02_1~2 添加list、使用md风格的图标
+```java
+     1、listitemview
+     compile 'com.lucasurbas:listitemview:1.0.5'
+     来自：https://github.com/lurbas/ListItemView
+
+     2、md图标
+     来自：https://materialdesignicons.com/
+           https://github.com/yeungeek/android-platform-tools-base
+
+```
+
 * 1.03_1 添加View注入butterknife、完成跳转反射弧且添加跳转动画
 ```java
     1、添加View注入butterknife
@@ -41,7 +53,7 @@
 
     2、完成代码目录重构，接下来尽量做一些方法的重构
 
-    3、完成跳转反射弧且添加跳转动画
+    3、完成跳转反射弧且添加跳转动画（overridePendingTransition（））
     //在fragment里做跳转
     Intent intent = new Intent(getActivity(), ChatActivity.class);
     startActivity(intent);
@@ -54,3 +66,5 @@
         overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
     }
 ```
+
+* 1.03_2 完成chatUI的功能
