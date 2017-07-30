@@ -42,7 +42,6 @@
 
      2、md图标
      来自：https://materialdesignicons.com/
-           https://github.com/yeungeek/android-platform-tools-base
 
 ```
 
