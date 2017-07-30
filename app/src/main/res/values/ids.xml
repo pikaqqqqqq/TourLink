@@ -2,7 +2,6 @@
 <resources>
     <item name="action_about" type="id"></item>
     <item name="action_settings" type="id" />
-    <item name="action_notification" type="id" />
     <item name="action_search" type="id" />
     <item name="action_add_group" type="id" />
     <item name="action_add_friend" type="id" />

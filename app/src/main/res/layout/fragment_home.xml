@@ -8,5 +8,47 @@
     tools:context="com.example.android.tourlink.buttom_navigation.fragment.HomeFragment">
 
     <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="true"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:layout_marginBottom="16dp">
 
+            <com.lucasurbas.listitemview.ListItemView
+                android:id="@+id/list_item_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:liv_title="都路飞"
+                app:liv_multiline="true"
+                app:liv_displayMode="circularIcon"
+                app:liv_icon="@drawable/ic_account_circle"
+                app:liv_subtitle="我：明天去哪里玩？"
+                app:liv_circularIconColor="@color/colorMan">
+            </com.lucasurbas.listitemview.ListItemView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="72dp"
+                android:background="#bbbbbb" />
+
+            <com.lucasurbas.listitemview.ListItemView
+                android:id="@+id/list_item_user2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:liv_title="小阿九"
+                app:liv_multiline="true"
+                app:liv_displayMode="circularIcon"
+                app:liv_subtitle="导游：语音13'"
+                app:liv_icon="@drawable/ic_account_circle"
+                app:liv_circularIconColor="@color/colorGirl">
+            </com.lucasurbas.listitemview.ListItemView>
+
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>
