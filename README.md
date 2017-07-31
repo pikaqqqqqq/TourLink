@@ -67,3 +67,7 @@
 ```
 
 * 1.03_2 完成chatUI的功能
+
+* 1.03_3 为消息列表添加监听
+
+* 下一步可以做搜索功能（https://github.com/MiguelCatalan/MaterialSearchView）

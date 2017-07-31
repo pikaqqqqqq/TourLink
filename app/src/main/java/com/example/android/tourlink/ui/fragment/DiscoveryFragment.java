@@ -48,6 +48,7 @@ public class DiscoveryFragment extends Fragment {
 //        TextView content = (TextView) view.findViewById(R.id.fragment_content);
 //        textView.setText(mFrom);
 //        content.setText("群组");
+
         attributeGroupSetting = (ListItemView)view.findViewById(R.id.list_item_group_view);
         attributeLittleNine = (ListItemView)view.findViewById(R.id.list_item_user2);
 
