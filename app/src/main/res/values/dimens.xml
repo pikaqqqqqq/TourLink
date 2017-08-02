@@ -13,4 +13,8 @@
     <dimen name="text_caption">13sp</dimen>
     <dimen name="line_height">1dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
+
+    <!--Search-->
+    <dimen name="search_view_inset">5dp</dimen>
+    <dimen name="sliding_search_view_header_height">250dp</dimen>
 </resources>

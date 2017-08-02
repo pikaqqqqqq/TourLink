@@ -96,8 +96,9 @@ public class ChatActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                Intent intent = new Intent(ChatActivity.this, MapActivity.class);
+                startActivity(intent);
+                overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
             }
         });
 
@@ -143,7 +144,7 @@ public class ChatActivity extends AppCompatActivity {
                         break;
                     case RecyclerView.SCROLL_STATE_DRAGGING:
                         chatAdapter.handler.removeCallbacksAndMessages(null);
-                        mDetector.hideEmotionLayout(false);
+                        mDetector.hideEmotionLayout(true);
                         mDetector.hideSoftInput();
                         break;
                     default:
@@ -160,6 +161,9 @@ public class ChatActivity extends AppCompatActivity {
         LoadData();
     }
 
+    /**
+     * item点击事件
+     */
     private ChatAdapter.onItemClickListener itemClickListener = new ChatAdapter.onItemClickListener() {
         @Override
         public void onHeaderClick(int position) {

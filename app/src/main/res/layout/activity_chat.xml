@@ -36,6 +36,6 @@
         android:layout_gravity="bottom|end"
         android:layout_marginBottom="72dp"
         android:layout_marginRight="16dp"
-        android:src="@android:drawable/ic_dialog_email" />
+        android:src="@drawable/ic_map_marker" />
 
 </android.support.design.widget.CoordinatorLayout>

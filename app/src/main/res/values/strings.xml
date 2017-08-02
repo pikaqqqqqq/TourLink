@@ -57,5 +57,16 @@
     <string name="toolbar_title_group">群组</string>
     <string name="toolbar_title_msg">消息</string>
     <string name="title_activity_chat">ChatActivity</string>
+    <string name="demo_name_basemap">基础地图</string>
+
+    <!--search-->
+    <string name="action_voice_rec">action voice rec</string>
+    <string name="action_location">action location</string>
+    <string name="action_taxi">action taxi</string>
+    <string name="action_change_colors">change style</string>
+    <string name="action_change_model">更改模式</string>
+    <string name="action_setting_group">设置群组</string>
+    <string name="title_activity_map_plus">MapPlusActivity</string>
+
 
 </resources>
