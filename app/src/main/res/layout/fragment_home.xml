@@ -38,6 +38,24 @@
                 android:background="#bbbbbb" />
 
             <com.lucasurbas.listitemview.ListItemView
+                android:id="@+id/list_group_msg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:liv_title="温哥华——广州"
+                app:liv_multiline="true"
+                app:liv_displayMode="circularIcon"
+                app:liv_subtitle="行程：明天-》维多利亚"
+                app:liv_icon="@drawable/ic_airplane_takeoff"
+                app:liv_circularIconColor="@color/colorPrimary">
+            </com.lucasurbas.listitemview.ListItemView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="72dp"
+                android:background="#bbbbbb" />
+
+            <com.lucasurbas.listitemview.ListItemView
                 android:id="@+id/list_item_user2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -49,6 +67,113 @@
                 app:liv_circularIconColor="@color/colorGirl">
             </com.lucasurbas.listitemview.ListItemView>
 
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="72dp"
+                android:background="#bbbbbb" />
+
+            <com.lucasurbas.listitemview.ListItemView
+                android:id="@+id/list_win_msg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:liv_title="系统通知"
+                app:liv_multiline="true"
+                app:liv_displayMode="circularIcon"
+                app:liv_subtitle="欢迎加入途聆"
+                app:liv_icon="@drawable/ic_notifications"
+                app:liv_circularIconColor="@color/colorContact">
+            </com.lucasurbas.listitemview.ListItemView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="72dp"
+                android:background="#bbbbbb" />
+
+            <com.lucasurbas.listitemview.ListItemView
+                android:id="@+id/list_add_msg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:liv_title="新好友"
+                app:liv_multiline="true"
+                app:liv_displayMode="circularIcon"
+                app:liv_subtitle="李琦请求添加你为好友"
+                app:liv_icon="@drawable/ic_plus"
+                app:liv_circularIconColor="@color/colorPrimary">
+            </com.lucasurbas.listitemview.ListItemView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="72dp"
+                android:background="#bbbbbb" />
+
+            <com.lucasurbas.listitemview.ListItemView
+                android:id="@+id/list_add_group_msg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:liv_title="苏苏邀请你加入“成都——北京”"
+                app:liv_multiline="true"
+                app:liv_displayMode="circularIcon"
+                app:liv_subtitle="欢迎加入群组"
+                app:liv_icon="@drawable/ic_account_multiple_plus"
+                app:liv_circularIconColor="@color/colorContact">
+            </com.lucasurbas.listitemview.ListItemView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="72dp"
+                android:background="#bbbbbb" />
+
+            <com.lucasurbas.listitemview.ListItemView
+                android:id="@+id/list_item_user3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:liv_title="李琦"
+                app:liv_multiline="true"
+                app:liv_displayMode="circularIcon"
+                app:liv_subtitle="[语音]"
+                app:liv_icon="@drawable/ic_account_circle"
+                app:liv_circularIconColor="@color/colorMan">
+            </com.lucasurbas.listitemview.ListItemView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="72dp"
+                android:background="#bbbbbb" />
+
+            <com.lucasurbas.listitemview.ListItemView
+                android:id="@+id/list_item_user4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:liv_title="吕闲"
+                app:liv_multiline="true"
+                app:liv_displayMode="circularIcon"
+                app:liv_subtitle="[语音]"
+                app:liv_icon="@drawable/ic_account_circle"
+                app:liv_circularIconColor="@color/colorMan">
+            </com.lucasurbas.listitemview.ListItemView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="72dp"
+                android:background="#bbbbbb" />
+
+            <com.lucasurbas.listitemview.ListItemView
+                android:id="@+id/list_item_user5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:liv_title="小九九"
+                app:liv_multiline="true"
+                app:liv_displayMode="circularIcon"
+                app:liv_subtitle="[语音]"
+                app:liv_icon="@drawable/ic_account_circle"
+                app:liv_circularIconColor="@color/colorGirl">
+            </com.lucasurbas.listitemview.ListItemView>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

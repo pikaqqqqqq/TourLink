@@ -104,6 +104,7 @@ public class ChatActivity extends AppCompatActivity {
 
         initWidget();
     }
+
     private void initWidget() {
         fragments = new ArrayList<>();
         chatEmotionFragment = new ChatEmotionFragment();

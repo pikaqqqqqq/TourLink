@@ -2,26 +2,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".ui.fragment.AttentionFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:id="@+id/title_from"
+
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:textColor="#FF0000"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="5dp"
-        />
-    <TextView
-        android:id="@+id/fragment_content"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="HomeFragment"
-        android:textColor="@android:color/black"
-        android:textSize="20sp"
-        android:layout_centerInParent="true"
-        />
+        android:orientation="vertical"
+        android:layout_gravity="center|top"
+         >
+        <include layout="@layout/include_btn_menu"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/fragment_menu"
+            android:layout_gravity="center" />
+    </LinearLayout>
 
 </FrameLayout>

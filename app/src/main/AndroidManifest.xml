@@ -34,7 +34,15 @@
             android:name="com.baidu.lbsapi.API_KEY"
             android:value="I6SFUp8fHkiY39PQqg9bEvjSkh4U8Tf7" />
 
-        <activity android:name=".ui.activity.RadioGroupTabActivity"></activity>
+        <activity android:name=".ui.activity.RadioGroupTabActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
         <activity android:name=".Main2Activity" />
         <activity
             android:name=".ui.activity.ChatActivity"
@@ -54,11 +62,6 @@
             android:configChanges="orientation|keyboardHidden"
             android:label="@string/demo_name_basemap"
             android:screenOrientation="portrait">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".ui.activity.MapPlusActivity"
